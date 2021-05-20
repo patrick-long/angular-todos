@@ -1,0 +1,26 @@
+.todo {
+    background: #f4f4f4;
+    padding: 10px;
+    border-bottom: 1px #ccc dotted;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+.todo > input {
+    margin: 0 10px;
+}
+
+.del {
+    background: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 9px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.is-complete {
+    text-decoration: line-through;
+}
